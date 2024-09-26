@@ -1,0 +1,259 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+  header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  header li {
+    margin-right: 20px;
+  }
+  
+  header a {
+    color: #fff;
+  }
+  
+  header a:hover {
+    color: #ccc;
+  }
+  
+  /* About Styles */
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Skills Styles */
+  
+  #skills {
+    padding: 20px;
+  }
+  
+  #skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #skills li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Projects Styles */
+  
+  #projects {
+    padding: 20px;
+  }
+  
+  #projects h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+  }
+  
+  /* Resume Styles */
+  
+  #resume {
+    padding: 20px;
+  }
+  
+  #resume h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #resume a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  #resume a:hover {
+    color: #23527c;
+  }
+  
+  /* Contact Styles */
+  
+  #contact {
+    padding: 20px;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #contact a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  #contact a:hover {
+    color: #23527c;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
